@@ -9,14 +9,10 @@ Data Collection → Column Selection → Data Transformation → Parameter & Pro
 - **Target Column:** `no2`  
 
 ### Transformation Applied
-\[
-z = Tr(x) = x + \sin^{-1}(b x)
-\]
+z = Tr(x) = x + asin(bx)
 
 ### Probability Function Used
-\[
-p(z) = c \cdot e^{-\lambda (z - \mu)^2}
-\]
+p(z) = c * e ^ (-lamda * (z - mu) ^ 2)
 
 ## 3. Objectives
 - Transform the dataset mathematically  
